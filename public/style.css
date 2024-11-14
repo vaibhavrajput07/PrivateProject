@@ -1,0 +1,129 @@
+body{
+    padding: 0;
+    margin: 0;
+    color: azure;
+    /* background-color: blueviolet; */
+    background-image: url("heart.jpg");
+    background-size: contain;
+    overflow: hidden;
+
+}
+h2{
+    margin-left: 3%;
+    
+    font-weight:600;
+    /* display: inline-block; */
+    /* position: relative; */
+}
+h2::first-letter{
+    /* position: absolute; */
+    color: red;
+    font-weight:700;
+    font-size: 150%;
+}
+.contain{
+    height: 100vh;
+    width: 40%;
+    margin-left:30% ;
+    position: relative;
+    /* top: -5%; */
+    /* background-image: url("heart.jpg"); */
+    /* background-size: cover; */
+}
+.a{
+    margin-left: 70%;
+    color: aliceblue;
+    background-color: rgb(5, 5, 161);
+    border: 1px solid white;
+}
+.a:hover{
+    background-color:black;
+    color:white;
+}
+.l{
+    /* text-decoration: 1px solid black; */
+    text-shadow: 1px blue;
+}
+
+@media(max-width:450px){
+    body{
+        padding: 0;
+        margin: 0;
+        color: azure;
+        /* background-color: blueviolet; */
+        background-image: url("heart.jpg");
+        /* background-image: none; */
+        background-size: contain;
+        overflow: hidden;
+    
+    }
+    h2{
+        margin-left: 5%;
+        
+        font-weight:600;
+        /* display: inline-block; */
+        /* position: relative; */
+    }
+    h2::first-letter{
+        /* position: absolute; */
+        color: red;
+        font-weight:700;
+        font-size: 150%;
+    }
+    .contain{
+        height: 100vh;
+        width: 80%;
+        margin-left:10% ;
+        margin-top: 20%;
+        position: relative;
+        /* top: -5%; */
+        /* background-image: url("heart.jpg"); */
+        /* background-size: cover; */
+    }
+    .a{
+        margin-left: 70%;
+        color: aliceblue;
+        background-color: rgb(5, 5, 161);
+        border: 1px solid white;
+    }
+    .a:hover{
+        background-color:black;
+        color:white;
+    }
+    .l{
+        /* text-decoration: 1px solid black; */
+        text-shadow: 1px blue;
+    }    
+    .t{
+        margin-left: 5%;
+    }
+}
+
+.result{
+    margin-left: 25%;
+}
+.icon{
+    height: 50%;
+    width: 50%;
+    font-size: 200px;
+}
+.bt{
+    /* margin-top:20%; */
+    margin-top: 5%;
+    margin-left: 10%;
+    /* padding: 5% 15% 5% 15%; */
+}
+@media(max-width:450px){
+    .result{
+        margin-top: 20%;
+        margin-left: 25%;
+    }
+    h4{
+        margin-left: -15%;
+    }
+    .bt{
+        margin-top:25%;
+        margin-left: 10%;
+        padding: 5% 15% 5% 15%;
+    }
+}
